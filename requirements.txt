@@ -1,0 +1,49 @@
+# ========================================
+# NLP & IMAGE ONLY - RTX 3050 (CUDA 12.1)
+# ========================================
+
+# Core Scientific Computing
+numpy==1.26.4
+scipy>=1.7.3
+pandas>=2.2.2
+scikit-learn>=1.5.0
+
+# Deep Learning (CUDA 12.1 compatible)
+torch==2.5.1
+torchvision==0.20.1
+lightning>=2.0.0,<2.3.0
+
+# NLP & Transformers
+transformers>=4.41.0,<4.47.0
+datasets>=3.0.0
+accelerate>=1.0.0
+tokenizers>=0.20.0
+sentencepiece>=0.2.0
+
+# Image Processing & Computer Vision
+pillow>=10.0.0
+opencv-python>=4.10.0
+timm>=1.0.7
+
+# Text Processing (Indonesian Friendly)
+nltk>=3.8.1
+sastrawi>=1.0.1
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.0
+
+# Utilities
+tqdm>=4.66.4
+pyyaml>=6.0
+packaging>=24.0
+joblib>=1.4.0
+
+# Jupyter & Development
+jupyter>=1.1.0
+ipykernel>=6.29.0
+notebook>=7.0.0
+
+# File & Data Support
+openpyxl>=3.1.0
+python-dotenv>=1.0.1
